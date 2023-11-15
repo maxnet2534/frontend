@@ -130,6 +130,77 @@ html {
 .container {
   grid-area: mn;
   border-right: var(--BORDER-MN-SB);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* || LOGIN FORM */
+.form-login {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-auto-rows: 50px auto auto 40px;
+  width: min-content;
+  height: max-content;
+  border: 1px solid var(--DARK-COLOR);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
+  padding: 0.15rem 0.15rem;
+}
+
+.login-title {
+  grid-column: 1/3;
+  height: 100%;
+  background-color: var(--BLUE-COLOR);
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0.15rem 0.5rem;
+  color: var(--WHITE-COLOR);
+  text-shadow: -1.3px 0 var(--DARK-COLOR), 0 1.3px var(--DARK-COLOR), 1.3px 0 var(--DARK-COLOR), 0 -1.3px var(--DARK-COLOR);
+}
+
+.form-login label,
+.form-login input {
+  background-color: var(--WHITE-COLOR);
+  padding: 0.25rem;
+}
+
+.form-login label {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+}
+
+.form-login input {
+  width: 200px;
+  height: 32px;
+  margin: 0 0.25rem;
+  font-size: 90%;
+}
+
+.buttons-login {
+  grid-row-start: 4;
+  grid-column: 1/3;
+  height: 100%;
+  border-radius: 0 0 0.5rem 0.5rem;
+  background-color: var(--ORANGE-COLOR);
+}
+
+.buttons-login button {
+  margin-left: 0.25rem;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--WHITE-COLOR);
+  border: 1px solid var(--DARK-COLOR);
+  border-radius: 0.25rem;
+  color: var(--DARK-COLOR);
+  font-size: 0.6rem;
+}
+
+.buttons-login button:hover,
+.buttons-login button:focus {
+  border: 2px solid var(--DARK-COLOR);
+  transform: scale(1.05 );
+  transition: all 0.1s;
 }
 
 /* || FOOTER */

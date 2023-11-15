@@ -1,7 +1,7 @@
-/* const Footer = () => {
+const Footer = () => {
   return (
-    <footer>Footer</footer>
+    <footer className="footer"><p>footer</p></footer>
   )
 }
 
-export default Footer */
+export default Footer 
