@@ -13,7 +13,7 @@ function Navbar() {
                       </button>
 
 
-                      <a class="navbar-brand ms-2" href="#">RMUTI Form Requester</a>
+                      <Link class="navbar-brand ms-2" to="/">RMUTI Form Requester</Link>
 
                   </div>
 
