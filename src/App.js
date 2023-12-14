@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Login from './features/auth/Login';
 import Document from './features/document/Document';
-import TableStudent from './features/user/TableStudent';
+import TableStudent from './features/document/TableStudent';
 
 function App() {
   return (

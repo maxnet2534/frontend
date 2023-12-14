@@ -1,13 +1,6 @@
-
-
-
-
 function TableStudent() {
   return (
     <>
-
-
-
 
       <div className="row justify-content-end my-2 g-0">
         <div className="col-md-3 g-0">
